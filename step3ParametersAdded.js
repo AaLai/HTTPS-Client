@@ -22,7 +22,7 @@ var bufferedStream = [];
 //callback used when all data is recieved
   response.on('end', function () {
     console.log('Response stream complete.');
-    console.log(bufferedStream)
+    console.log(bufferedStream);
   });
 
 });
